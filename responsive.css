@@ -38,7 +38,7 @@
   #about p {
     font-size: 25px;
       padding-top: 50px;
-      padding-right: 100px;
+      padding-right: 110px;
     }
 }
 
@@ -176,7 +176,7 @@
   #about p {
     font-size: 20px;
       padding-top: 50px;
-      padding-right: 1px;
+      padding-right: 50px;
     }
 
     #contact h1 {
@@ -224,13 +224,13 @@
       }
 
     #about h2 {
-      font-size: 35px;
+      font-size: 33px;
     }
 
     #about p {
       font-size: 20px;
       text-align: left;
-      padding-right: 45px;
+      padding-right: 50px;
     }
 
   }
@@ -284,7 +284,7 @@
     }
 
   #about h2 {
-    font-size: 35px;
+    font-size: 32px;
   }
 
   #about p {
@@ -358,6 +358,10 @@
       padding-top: 1px;
       padding-right: 28px;
 
+  }
+
+  #contact h3 {
+    font-size: 30px;
   }
 
 
