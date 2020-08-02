@@ -167,6 +167,11 @@
                           padding-top: 50px;
                           padding-bottom: 100px!important;
                       }
+
+                      html {
+    scroll-behavior: smooth !important;
+  }
+
   </style>
 
 
@@ -188,15 +193,13 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse">☰</button>
             <div class="collapse navbar-collapse" id="navbar-collapse">
               <ul class="nav navbar-nav ml-auto">
-                <li class="nav-item active"> <a class="nav-link" href="#">Home</a>
+                <li class="nav-item active"> <a class="nav-link" href="#head">Home</a>
                 </li>
-                <li class="nav-item"> <a class="nav-link" href="#">Services</a>
+
+                <li class="nav-item"> <a class="nav-link" href="#about">About</a>
                 </li>
-                <li class="nav-item"> <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item"> <a class="nav-link" href="#">Contact</a>
-                </li>
-                <li class="nav-item"> <a class="nav-link" href="#">Blog</a>
+
+                <li class="nav-item"> <a class="nav-link" href="#contact">Contact</a>
                 </li>
 
               </ul>
@@ -338,6 +341,12 @@
     </div>
 
   </footer>
+
+  <!--  Page Scroll to Top  -->
+
+<a class="scroll-to-top js-scroll-trigger hover" href="#page-top">
+  <i class="fa fa-angle-up"></i>
+</a>
 
   <!-- 6) JS ---------------------------------------------------------------------------- -->
 
